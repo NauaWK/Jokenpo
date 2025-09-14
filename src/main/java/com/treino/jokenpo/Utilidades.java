@@ -19,12 +19,11 @@ public abstract class Utilidades {
     }
         
     public static void exibirPlacar(Map<String, Integer> map){
-              
+             
         System.out.println("===== Placar =====");
         map.entrySet().forEach(entrada -> {
             System.out.println(entrada.getKey() + " : " + entrada.getValue());
         });
-        
+
     }   
 }
-
