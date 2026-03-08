@@ -4,7 +4,7 @@ package com.treino.jokenpo;
 import java.util.Map;
 import java.util.Scanner;
   
-public abstract class Utilidades {
+public class Utilidades {
      
     public static String perguntarNome(Scanner sc){
         
